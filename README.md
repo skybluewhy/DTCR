@@ -61,7 +61,7 @@ Training DTCR with a Random-base matrix as transition matrix:
 ```
 python main_conditional_epitope_design.py --schedule_name random --schedule mutual --batch_size 128 --epochs 20
 ```
-Generate novel TCRs using Random-base transition matrix based DTCR:
+Generate novel TCRs using Random transition matrix based DTCR:
 ```
 python TCR_design_cond_epitope.py --seed_num 2000 --batch_size 1024 --model_path "./checkpoint/model_design19.th" --schedule_name 'random' --schedule mutual
 ```
