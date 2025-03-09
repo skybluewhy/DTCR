@@ -48,7 +48,7 @@ Data Preparation:
 Prepare the train dataset () in <BASE_FOLDER>/data/.
 
 
-Training DTCR with a BLOSUM matrix as transition matrix:
+Training DTCR with a BLOSUM-based matrix as transition matrix:
 ```
 python main_conditional_epitope_design.py --schedule_name blosum --schedule exp --batch_size 128 --epochs 20
 ```
