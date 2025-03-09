@@ -43,7 +43,7 @@ cd DTCR
 # Data
 All the data used in the paper were collected from public databases: VDJdb, McAPS-TCR, IEDB and MIRA.
 
-# Usage of MFTEP
+# Usage of DTCR
 Data Preparation:
 Prepare the train dataset (https://drive.google.com/drive/folders/1EEhkc2Bf2RpyqDqX71Svl4xcRo_-cdR0?usp=drive_link) in <BASE_FOLDER>/data/.
 
