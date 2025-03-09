@@ -1,0 +1,18 @@
+datasets==2.7.0
+fastNLP==1.0.1
+fitlog==0.9.13
+nltk==3.7
+numpy==1.23.4
+torchmetrics==0.11.0
+transformers==4.21.1
+
+
+
+pip install accelerate
+pip install fastNLP
+pip install transformers==4.21.1
+pip install pytorch_lightning  --no-deps
+pip install lightning_utilities
+pip install torchmetrics
+pip install Bio
+pip install numpy==1.23.4
