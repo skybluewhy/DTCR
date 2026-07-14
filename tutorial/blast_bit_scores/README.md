@@ -33,7 +33,7 @@ draw blast bit scores distribution
 python draw_line_chart.py
 ```
 
-draw blast bit scores Cumulative distribution function (CDF)
+draw blast bit scores Cumulative distribution function (CDF) analysis of the consistency between generated TCRs and real binding TCRs
 ```
 python draw_correlations.py
 ```
