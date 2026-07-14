@@ -1,3 +1,5 @@
+ncbi tool: https://drive.google.com/file/d/1MT5DCbK15pH4xHyOZPE0IWySDQTkEwck/view?usp=drive_link
+
 extract files and set path
 ```
 tar -zxvf ncbi-blast-2.16.0+-x64-linux.tar.gz
