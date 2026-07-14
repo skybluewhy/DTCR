@@ -66,3 +66,4 @@ Generate novel TCRs using Random transition matrix based DTCR:
 python TCR_design_cond_epitope.py --seed_num 2000 --batch_size 1024 --model_path "./checkpoint/model_design19.th" --schedule_name 'random' --schedule mutual
 ```
 
+The core analysis scripts have been provided in tutorial directory
