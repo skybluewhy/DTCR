@@ -45,7 +45,7 @@ All the data used in the paper were collected from public databases: VDJdb, McAP
 
 # Usage of DTCR
 Data Preparation:
-Prepare the train dataset (https://drive.google.com/drive/folders/1evMbZDljoh4Y-NaW_PWhjK_cylDEAYFr?usp=drive_link) in <BASE_FOLDER>/data/.
+Prepare the train dataset (https://drive.google.com/file/d/1tqXtWfakUb-ICsbZyxMB1JHPvkJHgs8O/view?usp=sharing) in <BASE_FOLDER>/data/.
 
 
 Training DTCR with a BLOSUM-based matrix as transition matrix:
