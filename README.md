@@ -45,25 +45,25 @@ All the data used in the paper were collected from public databases: VDJdb, McAP
 
 # Usage of DTCR
 Data Preparation:
-Prepare the train dataset (https://drive.google.com/drive/folders/1EEhkc2Bf2RpyqDqX71Svl4xcRo_-cdR0?usp=drive_link) in <BASE_FOLDER>/data/.
+Prepare the train dataset (https://drive.google.com/drive/folders/1evMbZDljoh4Y-NaW_PWhjK_cylDEAYFr?usp=drive_link) in <BASE_FOLDER>/data/.
 
 
 Training DTCR with a BLOSUM-based matrix as transition matrix:
 ```
-python main_conditional_epitope_design.py --schedule_name blosum --schedule exp --batch_size 128 --epochs 20
+python train_model.py --schedule_name blosum --schedule exp --batch_size 128 --epochs 20
 ```
 Generate novel TCRs using BLOSUM transition matrix based DTCR:
 ```
-python TCR_design_cond_epitope.py --seed_num 2000 --batch_size 1024 --model_path "./checkpoint/model_design19.th" --schedule_name 'blosum' --schedule exp
+python TCR_generate_cond_epitope.py --seed_num 2000 --batch_size 1024 --model_path "./checkpoint/model_design19.th" --schedule_name 'blosum' --schedule exp
 ```
 
 Training DTCR with a Random-base matrix as transition matrix:
 ```
-python main_conditional_epitope_design.py --schedule_name random --schedule mutual --batch_size 128 --epochs 20
+python train_model.py --schedule_name random --schedule mutual --batch_size 128 --epochs 20
 ```
 Generate novel TCRs using Random transition matrix based DTCR:
 ```
-python TCR_design_cond_epitope.py --seed_num 2000 --batch_size 1024 --model_path "./checkpoint/model_design19.th" --schedule_name 'random' --schedule mutual
+python TCR_generate_cond_epitope.py --seed_num 2000 --batch_size 1024 --model_path "./checkpoint/model_design19.th" --schedule_name 'random' --schedule mutual
 ```
 
 The core analysis scripts have been provided in tutorial directory
